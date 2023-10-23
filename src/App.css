@@ -31,12 +31,12 @@ h1 {
   right:390px;
   top: 265px;
   z-index: 8;
-  position: absolute;
+  position: fixed;
 }
 
 iframe {
   z-index: 14;
-  position:absolute;
+  position:fixed;
   width:480px;
   height:350px;
   top:310px;
@@ -46,6 +46,7 @@ iframe {
 .background {
   background: url("./img/479 3.png") no-repeat center center fixed;
   background-size: cover;
+  position:fixed;
 }
 
 .button {
@@ -61,7 +62,7 @@ iframe {
   border: none;
   right:350px;
   top: 575px;
-  position: absolute;
+  position: fixed;
   height: 80px;
   width: 270px;
   font-family: 'NeutraBarbieDisplayBold';
@@ -82,7 +83,7 @@ iframe {
   border: none;
   right:745px;
   top: 30px;
-  position: absolute;
+  position: fixed;
   height: 80px;
   width: 270px;
   font-family: 'NeutraBarbieDisplayBold';
@@ -128,7 +129,7 @@ iframe {
   right:435px;
   top:330px;
   z-index: 8;
-  position: absolute;
+  position: fixed;
 }
 
 #games {
@@ -139,7 +140,7 @@ iframe {
   right:445px;
   top:365px;
   z-index: 8;
-  position: absolute;
+  position: fixed;
 }
 
 #fashion {
@@ -150,7 +151,7 @@ iframe {
   right:407px;
   top:402px;
   z-index: 8;
-  position: absolute;
+  position: fixed;
 }
 
 #chat {
@@ -161,7 +162,7 @@ iframe {
   right:394px;
   top:440px;
   z-index: 8;
-  position: absolute;
+  position: fixed;
 }
 
 #notice {
@@ -173,7 +174,7 @@ iframe {
   right:357px;
   top:470px;
   z-index: 8;
-  position: absolute;
+  position: fixed;
 }
 
 #shop-icon {
@@ -181,7 +182,7 @@ iframe {
   z-index: 9;
   right:508px;
   top:302px;
-  position:absolute;
+  position:fixed;
 }
 
 #games-icon {
@@ -189,7 +190,7 @@ iframe {
   z-index: 9;
   right:496px;
   top:334px;
-  position:absolute;
+  position:fixed;
 }
 
 #fashion-icon {
@@ -197,7 +198,7 @@ iframe {
   z-index: 9;
   right:496px;
   top:370px;
-  position:absolute;
+  position:fixed;
 }
 
 #chat-icon {
@@ -205,7 +206,7 @@ iframe {
   z-index: 9;
   right:489px;
   top:406px;
-  position:absolute;
+  position:fixed;
 }
 
 /* Grid */
@@ -284,7 +285,7 @@ item:nth-child(44) {
   z-index: 6;
   right:100px;
   top:-240px;
-  position: absolute;
+  position: fixed;
 }
 
 #rulestxt{
@@ -292,7 +293,7 @@ item:nth-child(44) {
   color: white;
   top: 805px;
   right: 625px;
-  position:absolute;
+  position:fixed;
 }
 
 #rules-bg {
@@ -300,7 +301,7 @@ item:nth-child(44) {
   top: 765px;
   right: 360px;
   transform: scale(0.4, 0.4);
-  position:absolute;
+  position:fixed;
 }
 
 #rules-fg {
@@ -308,7 +309,7 @@ item:nth-child(44) {
   top: 780px;
   right: 375px;
   transform: scale(0.4, 0.4);
-  position:absolute;
+  position:fixed;
 }
 
 #rules-hl{
@@ -316,7 +317,7 @@ item:nth-child(44) {
   top: 782px;
   right: 385px;
   transform: scale(0.4, 0.4);
-  position:absolute;
+  position:fixed;
 }
 
 #rules-link:hover~#rules-fg{
@@ -328,7 +329,7 @@ item:nth-child(44) {
   color: white;
   top: 805px;
   right: 409px;
-  position:absolute;
+  position:fixed;
 }
 
 #socials-bg {
@@ -336,7 +337,7 @@ item:nth-child(44) {
   top: 765px;
   right: 115px;
   transform: scale(0.4, 0.4);
-  position:absolute;
+  position:fixed;
 }
 
 #socials-fg {
@@ -344,7 +345,7 @@ item:nth-child(44) {
   top: 780px;
   right: 130px;
   transform: scale(0.4, 0.4);
-  position:absolute;
+  position:fixed;
 }
 
 #socials-hl{
@@ -352,7 +353,7 @@ item:nth-child(44) {
   top: 785px;
   right: 140px;
   transform: scale(0.4, 0.4);
-  position:absolute;
+  position:fixed;
 }
 
 #socials-link:hover~#socials-fg{
@@ -369,12 +370,12 @@ item:nth-child(44) {
   z-index: 6;
   top: -250px;
   right: 1050px;
-  position:absolute;
+  position:fixed;
 }
 
 .cones {
   width: 100px;
-  height: 100px;
+  height:10px;
 }
 
 #cones {
@@ -382,13 +383,13 @@ item:nth-child(44) {
   z-index: 7;
   top: 400px;
   right: 700px;
-  position:absolute;
+  position:fixed;
 }
 
 #bgr-picframe {
   transform: scale(0.4, 0.4);
   z-index: 7;
-  position:absolute;
+  position:fixed;
   top:-55px;
   right:260px;
 }
@@ -398,7 +399,7 @@ item:nth-child(44) {
   z-index: 4;
   top: -400px;
   right: 100px;
-  position:absolute;
+  position:fixed;
   
 }
 
@@ -413,13 +414,13 @@ item:nth-child(44) {
 #bgr-frame {
   transform: scale(0.4, 0.4);
   z-index: 2;
-  position:absolute;
+  position:fixed;
 }
 
 #bgr-design {
   transform: scale(0.4, 0.4);
   z-index: 1;
-  position:absolute;
+  position:fixed;
 }
 
 .base {
