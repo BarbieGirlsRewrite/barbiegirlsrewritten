@@ -9,7 +9,7 @@ class App extends Component {
   render() {
     return (
       <AuthContextProvider>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="nav" element={<Nav />} />
