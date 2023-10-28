@@ -260,7 +260,7 @@ item:nth-child(44) {
   z-index: 5;
   top: -40px;
   right: 1243px;
-  position:fixed;
+  position:absolute;
 }
 
 .lb {
@@ -273,7 +273,7 @@ item:nth-child(44) {
   z-index: 5;
   top: 50px;
   right: 200px;
-  position:fixed;
+  position:absolute;
 }
 
 .bgr-modal {
@@ -407,9 +407,9 @@ item:nth-child(44) {
 #bgr-bg {
   transform: scale(0.4, 0.4);
   z-index: 3;
-  left: 5px;
-  top: 5px;
-  position:relative;
+  left: -1600px;
+  top: -975px;
+  position:absolute;
 }
 
 #bgr-frame {
@@ -425,9 +425,9 @@ item:nth-child(44) {
 }
 
 .base {
-  right: -715px;
-  top: -475px;
-  position:fixed;
+  right: 890px;
+  top: 500px;
+  position:absolute;
 }
 
 #unity {
