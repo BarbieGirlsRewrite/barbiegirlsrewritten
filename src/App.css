@@ -46,7 +46,8 @@ iframe {
 .background {
   background: url("./img/479 3.png") no-repeat center center fixed;
   background-size: cover;
-  position:fixed;
+  position:absolute;
+  background-attachment: fixed;
 }
 
 .button {
