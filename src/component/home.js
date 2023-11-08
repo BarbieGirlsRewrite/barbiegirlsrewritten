@@ -26,6 +26,7 @@ function Home (){
 
     return <div class="background">
     <div class="container">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <item>{/* 1.1 */}</item>
       <item>{/* 1.2 */}</item>
       <item>{/* 1.3 */}</item>
