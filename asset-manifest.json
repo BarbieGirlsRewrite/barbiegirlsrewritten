@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/barbiegirlsrewritten/static/css/main.15660482.css",
+    "main.css": "/barbiegirlsrewritten/static/css/main.12667c83.css",
     "main.js": "/barbiegirlsrewritten/static/js/main.af44fc3e.js",
     "static/js/787.28cb0dcd.chunk.js": "/barbiegirlsrewritten/static/js/787.28cb0dcd.chunk.js",
     "static/media/BG.svg": "/barbiegirlsrewritten/static/media/BG.b9b89290e8881eaf481ff49f5bab32d3.svg",
@@ -26,12 +26,12 @@
     "static/media/837 2.svg": "/barbiegirlsrewritten/static/media/837 2.ac245d431753e892b2e508242833e50c.svg",
     "static/media/785.png": "/barbiegirlsrewritten/static/media/785.3bd6d83b66a9df856c26.png",
     "index.html": "/barbiegirlsrewritten/index.html",
-    "main.15660482.css.map": "/barbiegirlsrewritten/static/css/main.15660482.css.map",
+    "main.12667c83.css.map": "/barbiegirlsrewritten/static/css/main.12667c83.css.map",
     "main.af44fc3e.js.map": "/barbiegirlsrewritten/static/js/main.af44fc3e.js.map",
     "787.28cb0dcd.chunk.js.map": "/barbiegirlsrewritten/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.15660482.css",
+    "static/css/main.12667c83.css",
     "static/js/main.af44fc3e.js"
   ]
 }
